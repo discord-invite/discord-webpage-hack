@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'gg-sans';
+    src: url('gg-sans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #2c2f33;
+    font-family: 'gg-sans', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #2c2f33;
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #b9bbbe;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #b9bbbe;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #202225;
+    color: #fff;
+    font-size: 14px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.forgot {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #00aaff;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4752c4;
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.register a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.required {
+    color: red;
+}
